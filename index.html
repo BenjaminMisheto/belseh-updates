@@ -1,0 +1,362 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Belseh GitHub Update Builder</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #eef6ff;
+      --panel: #ffffff;
+      --ink: #101824;
+      --muted: #657282;
+      --line: #d9e6f3;
+      --primary: #176bc5;
+      --primary-2: #0b8ce8;
+      --green: #17a673;
+      --danger: #b42318;
+      --shadow: 0 24px 70px rgba(26, 73, 123, .16);
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #07111d;
+        --panel: #0d1a28;
+        --ink: #edf5ff;
+        --muted: #a8b7c8;
+        --line: #1f3348;
+        --primary: #5bb1ff;
+        --primary-2: #2f87e6;
+        --green: #4bd4a4;
+        --danger: #ff9a91;
+        --shadow: 0 24px 70px rgba(0, 0, 0, .34);
+      }
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background:
+        linear-gradient(135deg, rgba(23, 107, 197, .14), transparent 40%),
+        linear-gradient(315deg, rgba(42, 208, 162, .12), transparent 36%),
+        var(--bg);
+      color: var(--ink);
+      display: grid;
+      place-items: center;
+      padding: 28px;
+    }
+    main {
+      width: min(980px, 100%);
+      display: grid;
+      grid-template-columns: .9fr 1.1fr;
+      gap: 22px;
+      align-items: start;
+    }
+    .panel {
+      background: color-mix(in srgb, var(--panel) 94%, transparent);
+      border: 1px solid var(--line);
+      border-radius: 28px;
+      box-shadow: var(--shadow);
+      padding: 26px;
+    }
+    .brand {
+      display: flex;
+      gap: 14px;
+      align-items: center;
+      margin-bottom: 24px;
+    }
+    .mark {
+      width: 54px;
+      height: 54px;
+      border-radius: 18px;
+      background: linear-gradient(135deg, var(--primary), var(--primary-2));
+      display: grid;
+      place-items: center;
+      color: #fff;
+      font-weight: 900;
+      font-size: 26px;
+    }
+    h1, h2, p { margin: 0; }
+    h1 { font-size: clamp(28px, 4vw, 46px); line-height: 1.02; letter-spacing: 0; }
+    h2 { font-size: 20px; margin-bottom: 16px; }
+    .lead { color: var(--muted); margin-top: 14px; line-height: 1.55; font-size: 16px; }
+    .status {
+      margin-top: 20px;
+      border-radius: 20px;
+      padding: 18px;
+      background: color-mix(in srgb, var(--primary) 9%, transparent);
+      border: 1px solid color-mix(in srgb, var(--primary) 24%, transparent);
+    }
+    .status strong { display: block; margin-bottom: 5px; }
+    .status span { color: var(--muted); font-size: 14px; line-height: 1.45; }
+    form { display: grid; gap: 15px; }
+    label {
+      display: grid;
+      gap: 7px;
+      color: var(--muted);
+      font-weight: 800;
+      font-size: 13px;
+    }
+    input, textarea {
+      width: 100%;
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      background: color-mix(in srgb, var(--panel) 88%, transparent);
+      color: var(--ink);
+      padding: 14px 15px;
+      font: inherit;
+      outline: none;
+    }
+    input:focus, textarea:focus {
+      border-color: color-mix(in srgb, var(--primary) 72%, var(--line));
+      box-shadow: 0 0 0 4px color-mix(in srgb, var(--primary) 16%, transparent);
+    }
+    textarea { min-height: 120px; resize: vertical; }
+    .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+    .check {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      padding: 14px 15px;
+      color: var(--ink);
+      font-weight: 900;
+    }
+    .check input { width: 22px; height: 22px; accent-color: var(--primary); }
+    .drop {
+      border: 1px dashed color-mix(in srgb, var(--primary) 46%, var(--line));
+      border-radius: 20px;
+      padding: 18px;
+      background: color-mix(in srgb, var(--primary) 7%, transparent);
+    }
+    .drop input { border: 0; padding: 0; background: transparent; }
+    .actions { display: flex; gap: 12px; flex-wrap: wrap; margin-top: 4px; }
+    button {
+      border: 0;
+      border-radius: 16px;
+      padding: 14px 18px;
+      font: inherit;
+      font-weight: 900;
+      cursor: pointer;
+    }
+    .primary {
+      color: #fff;
+      background: linear-gradient(135deg, var(--primary), var(--primary-2));
+      box-shadow: 0 16px 34px color-mix(in srgb, var(--primary) 28%, transparent);
+    }
+    .secondary {
+      color: var(--primary);
+      background: color-mix(in srgb, var(--primary) 10%, transparent);
+    }
+    pre {
+      white-space: pre-wrap;
+      word-break: break-word;
+      margin: 0;
+      padding: 16px;
+      border-radius: 18px;
+      border: 1px solid var(--line);
+      background: color-mix(in srgb, #000 4%, transparent);
+      color: var(--muted);
+      min-height: 220px;
+      font-size: 12px;
+      line-height: 1.5;
+    }
+    .message {
+      min-height: 22px;
+      color: var(--muted);
+      font-weight: 800;
+      font-size: 14px;
+    }
+    .message.error { color: var(--danger); }
+    .message.ok { color: var(--green); }
+    @media (max-width: 860px) {
+      main { grid-template-columns: 1fr; }
+      .grid { grid-template-columns: 1fr; }
+      body { padding: 18px; }
+      .panel { border-radius: 22px; padding: 20px; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <section class="panel">
+      <div class="brand">
+        <div class="mark">B</div>
+        <div>
+          <strong>Belseh</strong>
+          <p class="lead">GitHub update builder</p>
+        </div>
+      </div>
+      <h1>Build update JSON for GitHub.</h1>
+      <p class="lead">Upload your APK to GitHub Releases, paste the release asset URL here, and this page creates the JSON that the app reads from GitHub.</p>
+      <div class="status">
+        <strong>No Firebase Storage needed</strong>
+        <span>This page does not upload anything. It only computes the APK SHA-256 and creates the update manifest.</span>
+      </div>
+      <div class="status">
+        <strong>App build setting</strong>
+        <span>Build the app with <code>--dart-define=UPDATE_MANIFEST_URL=https://raw.githubusercontent.com/OWNER/REPO/main/update.json</code></span>
+      </div>
+    </section>
+
+    <section class="panel">
+      <h2>Release details</h2>
+      <form id="manifestForm">
+        <div class="grid">
+          <label>
+            Version name
+            <input id="versionName" autocomplete="off" placeholder="1.0.2" required>
+          </label>
+          <label>
+            Version code
+            <input id="versionCode" type="number" min="1" step="1" placeholder="2" required>
+          </label>
+        </div>
+
+        <label>
+          GitHub APK download URL
+          <input id="apkUrl" placeholder="https://github.com/OWNER/REPO/releases/download/v1.0.2/belseh.apk" required>
+        </label>
+
+        <div class="grid">
+          <label>
+            APK file for SHA-256
+            <span class="drop"><input id="apkFile" type="file" accept=".apk,application/vnd.android.package-archive"></span>
+          </label>
+          <label>
+            Published date
+            <input id="publishedAt" type="datetime-local">
+          </label>
+        </div>
+
+        <label>
+          Release notes
+          <textarea id="releaseNotes" placeholder="What changed in this build"></textarea>
+        </label>
+
+        <div class="grid">
+          <label class="check">
+            Enabled
+            <input id="enabled" type="checkbox" checked>
+          </label>
+          <label class="check">
+            Required update
+            <input id="mandatory" type="checkbox">
+          </label>
+        </div>
+
+        <div class="actions">
+          <button class="primary" id="buildButton" type="submit">Build JSON</button>
+          <button class="secondary" id="copyButton" type="button">Copy JSON</button>
+          <button class="secondary" id="downloadButton" type="button">Download update.json</button>
+        </div>
+        <div id="message" class="message"></div>
+      </form>
+      <h2 style="margin-top: 22px;">update.json</h2>
+      <pre id="jsonPreview">{}</pre>
+    </section>
+  </main>
+
+  <script>
+    const form = document.querySelector("#manifestForm");
+    const versionName = document.querySelector("#versionName");
+    const versionCode = document.querySelector("#versionCode");
+    const apkUrl = document.querySelector("#apkUrl");
+    const apkFile = document.querySelector("#apkFile");
+    const publishedAt = document.querySelector("#publishedAt");
+    const releaseNotes = document.querySelector("#releaseNotes");
+    const enabled = document.querySelector("#enabled");
+    const mandatory = document.querySelector("#mandatory");
+    const preview = document.querySelector("#jsonPreview");
+    const message = document.querySelector("#message");
+    const copyButton = document.querySelector("#copyButton");
+    const downloadButton = document.querySelector("#downloadButton");
+    let hash = "";
+    let sizeBytes = 0;
+
+    function setMessage(text, type = "") {
+      message.textContent = text;
+      message.className = `message ${type}`;
+    }
+
+    async function sha256Hex(file) {
+      const hashBuffer = await crypto.subtle.digest("SHA-256", await file.arrayBuffer());
+      return [...new Uint8Array(hashBuffer)].map((byte) => byte.toString(16).padStart(2, "0")).join("");
+    }
+
+    function isoDate() {
+      if (!publishedAt.value) return new Date().toISOString();
+      return new Date(publishedAt.value).toISOString();
+    }
+
+    function manifest() {
+      return {
+        enabled: enabled.checked,
+        mandatory: mandatory.checked,
+        versionName: versionName.value.trim(),
+        versionCode: Number(versionCode.value),
+        apkUrl: apkUrl.value.trim(),
+        sha256: hash,
+        apkSizeBytes: sizeBytes,
+        releaseNotes: releaseNotes.value.trim(),
+        publishedAt: isoDate()
+      };
+    }
+
+    function refreshPreview() {
+      preview.textContent = JSON.stringify(manifest(), null, 2);
+    }
+
+    apkFile.addEventListener("change", async () => {
+      const file = apkFile.files[0];
+      if (!file) {
+        hash = "";
+        sizeBytes = 0;
+        refreshPreview();
+        return;
+      }
+      setMessage("Computing APK SHA-256...", "");
+      sizeBytes = file.size;
+      hash = await sha256Hex(file);
+      setMessage("APK hash ready.", "ok");
+      refreshPreview();
+    });
+
+    [versionName, versionCode, apkUrl, publishedAt, releaseNotes, enabled, mandatory].forEach((node) => {
+      node.addEventListener("input", refreshPreview);
+      node.addEventListener("change", refreshPreview);
+    });
+
+    form.addEventListener("submit", (event) => {
+      event.preventDefault();
+      if (!versionName.value.trim() || !Number(versionCode.value) || !apkUrl.value.trim()) {
+        setMessage("Enter version name, version code, and APK URL.", "error");
+        return;
+      }
+      refreshPreview();
+      setMessage("JSON ready. Upload this as update.json to GitHub.", "ok");
+    });
+
+    copyButton.addEventListener("click", async () => {
+      await navigator.clipboard.writeText(preview.textContent);
+      setMessage("JSON copied.", "ok");
+    });
+
+    downloadButton.addEventListener("click", () => {
+      const blob = new Blob([preview.textContent], { type: "application/json" });
+      const url = URL.createObjectURL(blob);
+      const link = document.createElement("a");
+      link.href = url;
+      link.download = "update.json";
+      link.click();
+      URL.revokeObjectURL(url);
+    });
+
+    publishedAt.value = new Date().toISOString().slice(0, 16);
+    refreshPreview();
+  </script>
+</body>
+</html>
