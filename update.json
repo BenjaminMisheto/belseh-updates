@@ -4,8 +4,8 @@
   "versionName": "1.0.6",
   "versionCode": 4001,
   "apkUrl": "https://github.com/BenjaminMisheto/belseh-updates/releases/download/v1.0.6/belseh-1.0.6-armeabi-v7a.apk",
-  "sha256": "1884ded4af3d974e74556faa30a8d399eab6985f46c4734f239441f75906dd07",
-  "apkSizeBytes": 72185114,
+  "sha256": "be7e88f57b31cd7e0182163848ed60904053ba825f74edb16ff628e3de87d12a",
+  "apkSizeBytes": 72185158,
   "releaseNotes": "Makes update downloads persistent with Android notification progress and cancellation.",
-  "publishedAt": "2026-06-16T14:34:20.045Z"
+  "publishedAt": "2026-06-16T14:50:40.237Z"
 }
