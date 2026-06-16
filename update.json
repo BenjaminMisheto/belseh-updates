@@ -2,10 +2,10 @@
   "enabled": true,
   "mandatory": false,
   "versionName": "1.0.4",
-  "versionCode": 2005,
-  "apkUrl": "https://github.com/BenjaminMisheto/belseh-updates/releases/download/v1.0.4/belseh-1.0.4-arm64-v8a.apk",
-  "sha256": "33ba32129ab7956970a1b5071e7ba3bd489283b79771d7c7a18a1484bd4f0f0f",
-  "apkSizeBytes": 93011512,
+  "versionCode": 1005,
+  "apkUrl": "https://github.com/BenjaminMisheto/belseh-updates/releases/download/v1.0.4/belseh-1.0.4-armeabi-v7a.apk",
+  "sha256": "4a8f4aebca0aac4ff9648df0c60eed7ccc58c024f0e7ad221950e489b1594ff1",
+  "apkSizeBytes": 72173574,
   "releaseNotes": "Sets coin price to TSH 500 by default and changes referrals to give 1 coin to both accounts.",
   "publishedAt": "2026-06-16T10:13:00.054Z"
 }
