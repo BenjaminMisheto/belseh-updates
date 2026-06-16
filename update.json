@@ -1,11 +1,11 @@
 {
   "enabled": true,
   "mandatory": false,
-  "versionName": "1.0.3",
-  "versionCode": 4,
-  "apkUrl": "https://github.com/BenjaminMisheto/belseh-updates/releases/download/v1.0.3/belseh-1.0.3.apk",
-  "sha256": "04faf8eeddacca9761a84d0fb1497e13c080d4af492a8e1abd806427dcfc54bc",
-  "apkSizeBytes": 163235337,
-  "releaseNotes": "Refreshes the update page with a premium status hero, release card, loading state, and error state.",
-  "publishedAt": "2026-06-16T07:43:41.813Z"
+  "versionName": "1.0.4",
+  "versionCode": 5,
+  "apkUrl": "https://github.com/BenjaminMisheto/belseh-updates/releases/download/v1.0.4/belseh-1.0.4.apk",
+  "sha256": "f9f101257b7c9d78a547dd0dfc9d889d3293d8a460bfc52fa4548522228cd016",
+  "apkSizeBytes": 163233465,
+  "releaseNotes": "Sets coin price to TSH 500 by default and changes referrals to give 1 coin to both accounts.",
+  "publishedAt": "2026-06-16T10:13:00.054Z"
 }
