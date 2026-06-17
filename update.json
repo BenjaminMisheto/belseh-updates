@@ -1,11 +1,11 @@
 {
   "enabled": true,
   "mandatory": false,
-  "versionName": "1.0.15",
-  "versionCode": 5010,
-  "apkUrl": "https://github.com/BenjaminMisheto/belseh-updates/releases/download/v1.0.15/belseh-1.0.15-universal.apk",
-  "sha256": "7e935db41b2b1d88ace757234baff3637caf4f38acd8deebbf18808e108bdf7f",
-  "apkSizeBytes": 163278492,
-  "releaseNotes": "Publishes a universal APK with arm64-v8a, armeabi-v7a, and x86_64 support so updates work on more Android phones, including 64-bit-only devices.",
-  "publishedAt": "2026-06-17T09:33:18.078Z"
+  "versionName": "1.0.16",
+  "versionCode": 5011,
+  "apkUrl": "https://github.com/BenjaminMisheto/belseh-updates/releases/download/v1.0.16/belseh-1.0.16-universal.apk",
+  "sha256": "de37b2f64aa8f136371a41a652a8987b49fb64e8c7dbfa9452e2c534c198c401",
+  "apkSizeBytes": 163280132,
+  "releaseNotes": "Fixes student profile loading so a missing or slow DIDIS profile can no longer show another student's saved name. Existing leaked saved names are ignored and the app now uses neutral account-specific fallback text until the real profile loads.",
+  "publishedAt": "2026-06-17T09:45:56.893Z"
 }
