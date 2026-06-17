@@ -1,11 +1,11 @@
 {
   "enabled": true,
   "mandatory": false,
-  "versionName": "1.0.8",
-  "versionCode": 5003,
-  "apkUrl": "https://github.com/BenjaminMisheto/belseh-updates/releases/download/v1.0.8/belseh-1.0.8-armeabi-v7a.apk",
-  "sha256": "d222d6a514441a0769603bbc3cf6a38ee179fd173cc63af09ae23e988a5e5e2e",
-  "apkSizeBytes": 72211149,
-  "releaseNotes": "Dark theme now uses deeper blue top cards on Home and Account so the first cards match the rest of the night palette.",
-  "publishedAt": "2026-06-17T03:24:40.208Z"
+  "versionName": "1.0.9",
+  "versionCode": 5004,
+  "apkUrl": "https://github.com/BenjaminMisheto/belseh-updates/releases/download/v1.0.9/belseh-1.0.9-armeabi-v7a.apk",
+  "sha256": "fd063343cc584cf928c311a853309603ea0ac46f993dd7ca21254dfdbd69a30c",
+  "apkSizeBytes": 72211221,
+  "releaseNotes": "Fixes the switch profile action on the History screen so tapping the top profile control returns to account selection immediately.",
+  "publishedAt": "2026-06-17T03:32:45.387Z"
 }
