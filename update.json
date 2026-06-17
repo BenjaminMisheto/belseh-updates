@@ -1,11 +1,11 @@
 {
   "enabled": true,
   "mandatory": false,
-  "versionName": "1.0.18",
-  "versionCode": 5013,
-  "apkUrl": "https://github.com/BenjaminMisheto/belseh-updates/releases/download/v1.0.18/belseh-1.0.18-universal.apk",
-  "sha256": "7baaf6cd357bea8e598e7a499a3f4eabbc5408e01cc08c155f598dc159912d6b",
-  "apkSizeBytes": 163281688,
-  "releaseNotes": "Fixes saved student account avatars so real profile photos are kept and shown on normal and batch account lists, including accounts whose real name matches the old placeholder fallback.",
-  "publishedAt": "2026-06-17T10:03:09.613Z"
+  "versionName": "1.0.19",
+  "versionCode": 5014,
+  "apkUrl": "https://github.com/BenjaminMisheto/belseh-updates/releases/download/v1.0.19/belseh-1.0.19-universal.apk",
+  "sha256": "f1542619c14c711dcd775a1ed8eeb010efef4ecd1cede185d0341f7a40b834c2",
+  "apkSizeBytes": 163287128,
+  "releaseNotes": "Adds a What's new card on Settings so users can revisit the latest release notes at any time, see update status, refresh the notes, and open the updater from the same place.",
+  "publishedAt": "2026-06-17T10:11:23.043Z"
 }
