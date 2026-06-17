@@ -1,11 +1,11 @@
 {
   "enabled": true,
   "mandatory": false,
-  "versionName": "1.0.13",
-  "versionCode": 5008,
-  "apkUrl": "https://github.com/BenjaminMisheto/belseh-updates/releases/download/v1.0.13/belseh-1.0.13-armeabi-v7a.apk",
-  "sha256": "c0b023a9d35e29047166d7020b2a182d79402bcb629042bb54206425b012e9b3",
-  "apkSizeBytes": 72216749,
-  "releaseNotes": "Transaction details now show ledger IDs as a clean compact ledger entry with a Copy full ID action instead of a long raw string.",
-  "publishedAt": "2026-06-17T08:11:16.755Z"
+  "versionName": "1.0.14",
+  "versionCode": 5009,
+  "apkUrl": "https://github.com/BenjaminMisheto/belseh-updates/releases/download/v1.0.14/belseh-1.0.14-armeabi-v7a.apk",
+  "sha256": "b2bc261ec08b8aa4c1642185d8ef85add4ca28ffe595c8345c3eb1320eae9137",
+  "apkSizeBytes": 72218593,
+  "releaseNotes": "Improves app smoothness with consistent page transitions, preserved tab scroll position, better scroll caching, and lighter list building on history and transaction screens.",
+  "publishedAt": "2026-06-17T08:41:28.929Z"
 }
