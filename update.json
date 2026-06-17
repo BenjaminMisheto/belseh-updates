@@ -1,11 +1,11 @@
 {
   "enabled": true,
   "mandatory": false,
-  "versionName": "1.0.17",
-  "versionCode": 5012,
-  "apkUrl": "https://github.com/BenjaminMisheto/belseh-updates/releases/download/v1.0.17/belseh-1.0.17-universal.apk",
-  "sha256": "9469bb554a36f8ea55ea3855a069232b32de710cb165c5902d6901731a55a0e9",
-  "apkSizeBytes": 163280128,
-  "releaseNotes": "Refines the launch splash screen so the Belseh logo stays compact and consistent across different phone sizes and Android versions.",
-  "publishedAt": "2026-06-17T09:55:10.709Z"
+  "versionName": "1.0.18",
+  "versionCode": 5013,
+  "apkUrl": "https://github.com/BenjaminMisheto/belseh-updates/releases/download/v1.0.18/belseh-1.0.18-universal.apk",
+  "sha256": "7baaf6cd357bea8e598e7a499a3f4eabbc5408e01cc08c155f598dc159912d6b",
+  "apkSizeBytes": 163281688,
+  "releaseNotes": "Fixes saved student account avatars so real profile photos are kept and shown on normal and batch account lists, including accounts whose real name matches the old placeholder fallback.",
+  "publishedAt": "2026-06-17T10:03:09.613Z"
 }
