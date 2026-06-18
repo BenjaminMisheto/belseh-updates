@@ -1,14 +1,20 @@
 {
     "enabled":  true,
     "mandatory":  false,
-    "versionName":  "1.0.27",
-    "versionCode":  5022,
-    "apkUrl":  "https://github.com/BenjaminMisheto/belseh-updates/releases/download/v1.0.27/belseh-1.0.27-universal.apk",
-    "sha256":  "e1f3451dd9f0b3c3a1495a43222255bbe6c6a260770b451ec7225240202ddd1e",
-    "apkSizeBytes":  163303972,
-    "releaseNotes":  "- Fixes the update popups so the card surface is solid and no screen text shows through.\n- Keeps the premium blue update dialog style in light and dark mode.\n- Makes the release-note panel opaque while preserving the soft tinted design.",
-    "publishedAt":  "2026-06-18T05:22:05.866Z",
+    "versionName":  "1.0.28",
+    "versionCode":  5023,
+    "apkUrl":  "https://github.com/BenjaminMisheto/belseh-updates/releases/download/v1.0.28/belseh-1.0.28-universal.apk",
+    "sha256":  "0550ba92b9ad05a3015daafc823ec83b19842be12afafeda0f47668b512a6f08",
+    "apkSizeBytes":  163304472,
+    "releaseNotes":  "- Extends the app background and overlays behind the Android status bar at the top of the phone.\n- Uses transparent edge-to-edge system bars so the time area matches the current screen theme.\n- Keeps status and navigation icon contrast correct in light and dark mode.",
+    "publishedAt":  "2026-06-18T05:30:35.650Z",
     "history":  [
+                    {
+                        "versionName":  "1.0.28",
+                        "versionCode":  5023,
+                        "releaseNotes":  "- Extends the app background and overlays behind the Android status bar at the top of the phone.\n- Uses transparent edge-to-edge system bars so the time area matches the current screen theme.\n- Keeps status and navigation icon contrast correct in light and dark mode.",
+                        "publishedAt":  "2026-06-18T05:30:35.650Z"
+                    },
                     {
                         "versionName":  "1.0.27",
                         "versionCode":  5022,
