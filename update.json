@@ -1,14 +1,20 @@
 {
     "enabled":  true,
     "mandatory":  false,
-    "versionName":  "1.0.26",
-    "versionCode":  5021,
-    "apkUrl":  "https://github.com/BenjaminMisheto/belseh-updates/releases/download/v1.0.26/belseh-1.0.26-universal.apk",
-    "sha256":  "f5394fa19ba06bedbd05394a82c8f95d607b97224b8151c38ad63b2fc11baa23",
-    "apkSizeBytes":  163303832,
-    "releaseNotes":  "- Shows only the latest 10 update-history entries first, with Load more for older releases.\n- Removes ledger entry and transfer ID from transaction details.\n- Makes the transaction detail header inherit the same color treatment as the transaction card.",
-    "publishedAt":  "2026-06-18T05:10:27.450Z",
+    "versionName":  "1.0.27",
+    "versionCode":  5022,
+    "apkUrl":  "https://github.com/BenjaminMisheto/belseh-updates/releases/download/v1.0.27/belseh-1.0.27-universal.apk",
+    "sha256":  "e1f3451dd9f0b3c3a1495a43222255bbe6c6a260770b451ec7225240202ddd1e",
+    "apkSizeBytes":  163303972,
+    "releaseNotes":  "- Fixes the update popups so the card surface is solid and no screen text shows through.\n- Keeps the premium blue update dialog style in light and dark mode.\n- Makes the release-note panel opaque while preserving the soft tinted design.",
+    "publishedAt":  "2026-06-18T05:22:05.866Z",
     "history":  [
+                    {
+                        "versionName":  "1.0.27",
+                        "versionCode":  5022,
+                        "releaseNotes":  "- Fixes the update popups so the card surface is solid and no screen text shows through.\n- Keeps the premium blue update dialog style in light and dark mode.\n- Makes the release-note panel opaque while preserving the soft tinted design.",
+                        "publishedAt":  "2026-06-18T05:22:05.866Z"
+                    },
                     {
                         "versionName":  "1.0.26",
                         "versionCode":  5021,
