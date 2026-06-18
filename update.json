@@ -1,14 +1,20 @@
 {
     "enabled":  true,
     "mandatory":  false,
-    "versionName":  "1.0.24",
-    "versionCode":  5019,
-    "apkUrl":  "https://github.com/BenjaminMisheto/belseh-updates/releases/download/v1.0.24/belseh-1.0.24-universal.apk",
-    "sha256":  "a8fd82278f29a1782452490e3a7298e0d721e3e4156b47e55b55c460ec59b5d0",
-    "apkSizeBytes":  163302404,
-    "releaseNotes":  "- Restyles update popups to match the app\u0027s premium blue theme in light and dark mode.\n- Uses the same release-note list style and action buttons as Settings.\n- Keeps update install and installed-summary behavior unchanged.",
-    "publishedAt":  "2026-06-18T04:50:35.904Z",
+    "versionName":  "1.0.25",
+    "versionCode":  5020,
+    "apkUrl":  "https://github.com/BenjaminMisheto/belseh-updates/releases/download/v1.0.25/belseh-1.0.25-universal.apk",
+    "sha256":  "17d2255a5f5a1eef6ae71ce52183cfd7ff0808038b0c0b9258c2da205c352daa",
+    "apkSizeBytes":  163302956,
+    "releaseNotes":  "- Restyles update popups to match the app\u0027s premium blue theme in light and dark mode.\n- Uses the same release-note list, status pills, and action button style as Settings.\n- Makes update checks tolerate hosted JSON encoding marks safely.",
+    "publishedAt":  "2026-06-18T04:59:29.098Z",
     "history":  [
+                    {
+                        "versionName":  "1.0.25",
+                        "versionCode":  5020,
+                        "releaseNotes":  "- Restyles update popups to match the app\u0027s premium blue theme in light and dark mode.\n- Uses the same release-note list, status pills, and action button style as Settings.\n- Makes update checks tolerate hosted JSON encoding marks safely.",
+                        "publishedAt":  "2026-06-18T04:59:29.098Z"
+                    },
                     {
                         "versionName":  "1.0.24",
                         "versionCode":  5019,
