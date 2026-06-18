@@ -1,14 +1,20 @@
 {
     "enabled":  true,
     "mandatory":  false,
-    "versionName":  "1.0.28",
-    "versionCode":  5023,
-    "apkUrl":  "https://github.com/BenjaminMisheto/belseh-updates/releases/download/v1.0.28/belseh-1.0.28-universal.apk",
-    "sha256":  "0550ba92b9ad05a3015daafc823ec83b19842be12afafeda0f47668b512a6f08",
-    "apkSizeBytes":  163304472,
-    "releaseNotes":  "- Extends the app background and overlays behind the Android status bar at the top of the phone.\n- Uses transparent edge-to-edge system bars so the time area matches the current screen theme.\n- Keeps status and navigation icon contrast correct in light and dark mode.",
-    "publishedAt":  "2026-06-18T05:30:35.650Z",
+    "versionName":  "1.0.29",
+    "versionCode":  5024,
+    "apkUrl":  "https://github.com/BenjaminMisheto/belseh-updates/releases/download/v1.0.29/belseh-1.0.29-universal.apk",
+    "sha256":  "0c9ab1e363e3e030049e84eca88cb2ff2a09db3a8e230f3f066b59486256c5eb",
+    "apkSizeBytes":  163308672,
+    "releaseNotes":  "- Hides raw server, Firebase, platform, and network error details from normal users.\n- Shows safe public messages unless BELSEH_DEBUG_ERRORS is explicitly enabled for a diagnostic build.\n- Stops native Android download/share errors and debug logs from exposing technical details.",
+    "publishedAt":  "2026-06-18T05:45:45.854Z",
     "history":  [
+                    {
+                        "versionName":  "1.0.29",
+                        "versionCode":  5024,
+                        "releaseNotes":  "- Hides raw server, Firebase, platform, and network error details from normal users.\n- Shows safe public messages unless BELSEH_DEBUG_ERRORS is explicitly enabled for a diagnostic build.\n- Stops native Android download/share errors and debug logs from exposing technical details.",
+                        "publishedAt":  "2026-06-18T05:45:45.854Z"
+                    },
                     {
                         "versionName":  "1.0.28",
                         "versionCode":  5023,
