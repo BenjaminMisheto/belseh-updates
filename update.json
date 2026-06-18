@@ -1,14 +1,20 @@
 {
     "enabled":  true,
     "mandatory":  false,
-    "versionName":  "1.0.33",
-    "versionCode":  5028,
-    "apkUrl":  "https://github.com/BenjaminMisheto/belseh-updates/releases/download/v1.0.33/belseh-1.0.33-universal.apk",
-    "sha256":  "175364723c53765a75bdf7312679e3f5321c18194aca3379dc4fc681e801deae",
-    "apkSizeBytes":  58095062,
-    "releaseNotes":  "- Adds a GitHub API fallback so the updater can read fresh release notes even when raw files are cached.\n- Keeps raw GitHub and GitHub Pages as fallback update channels.\n- Keeps cached release notes available during temporary network problems.",
-    "publishedAt":  "2026-06-18T08:36:46Z",
+    "versionName":  "1.0.34",
+    "versionCode":  5029,
+    "apkUrl":  "https://github.com/BenjaminMisheto/belseh-updates/releases/download/v1.0.34/belseh-1.0.34-universal.apk",
+    "sha256":  "c7fc0e5b0b137aa13ea960b6f52a505290b23dc138c1235f8f57da48a8f3f6b7",
+    "apkSizeBytes":  58111446,
+    "releaseNotes":  "- Stops new batch wallets from receiving a free starter coin.\n- Reverses the old batch starter coin once when an existing batch wallet loads.\n- Prevents batch wallets from creating free coins by applying referral codes; verified normal student referrals still count for rewards.\n- Keeps batch wallets fundable through gifts and real referral rewards.",
+    "publishedAt":  "2026-06-18T09:50:09Z",
     "history":  [
+                    {
+                        "versionName":  "1.0.34",
+                        "versionCode":  5029,
+                        "releaseNotes":  "- Stops new batch wallets from receiving a free starter coin.\n- Reverses the old batch starter coin once when an existing batch wallet loads.\n- Prevents batch wallets from creating free coins by applying referral codes; verified normal student referrals still count for rewards.\n- Keeps batch wallets fundable through gifts and real referral rewards.",
+                        "publishedAt":  "2026-06-18T09:50:09Z"
+                    },
                     {
                         "versionName":  "1.0.33",
                         "versionCode":  5028,
