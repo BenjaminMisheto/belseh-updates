@@ -1,14 +1,20 @@
 {
     "enabled":  true,
     "mandatory":  false,
-    "versionName":  "1.0.29",
-    "versionCode":  5024,
-    "apkUrl":  "https://github.com/BenjaminMisheto/belseh-updates/releases/download/v1.0.29/belseh-1.0.29-universal.apk",
-    "sha256":  "0c9ab1e363e3e030049e84eca88cb2ff2a09db3a8e230f3f066b59486256c5eb",
-    "apkSizeBytes":  163308672,
-    "releaseNotes":  "- Hides raw server, Firebase, platform, and network error details from normal users.\n- Shows safe public messages unless BELSEH_DEBUG_ERRORS is explicitly enabled for a diagnostic build.\n- Stops native Android download/share errors and debug logs from exposing technical details.",
-    "publishedAt":  "2026-06-18T05:45:45.854Z",
+    "versionName":  "1.0.30",
+    "versionCode":  5025,
+    "apkUrl":  "https://github.com/BenjaminMisheto/belseh-updates/releases/download/v1.0.30/belseh-1.0.30-universal.apk",
+    "sha256":  "8786c052e0a6c5a1efc18a6a4087f2b14279689a297a5f1aa7b54d2158616d49",
+    "apkSizeBytes":  57603542,
+    "releaseNotes":  "- Adds referral rewards and Apply referral code to batch wallets.\n- Replaces the demo purchase card with a How to get coins guide.\n- Explains safe coin options: trusted friend transfers or 3 successful referrals for 1 coin.",
+    "publishedAt":  "2026-06-18T07:07:57Z",
     "history":  [
+                    {
+                        "versionName":  "1.0.30",
+                        "versionCode":  5025,
+                        "releaseNotes":  "- Adds referral rewards and Apply referral code to batch wallets.\n- Replaces the demo purchase card with a How to get coins guide.\n- Explains safe coin options: trusted friend transfers or 3 successful referrals for 1 coin.",
+                        "publishedAt":  "2026-06-18T07:07:57Z"
+                    },
                     {
                         "versionName":  "1.0.29",
                         "versionCode":  5024,
