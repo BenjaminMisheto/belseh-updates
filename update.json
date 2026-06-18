@@ -1,14 +1,20 @@
 {
     "enabled":  true,
     "mandatory":  false,
-    "versionName":  "1.0.31",
-    "versionCode":  5026,
-    "apkUrl":  "https://github.com/BenjaminMisheto/belseh-updates/releases/download/v1.0.31/belseh-1.0.31-universal.apk",
-    "sha256":  "ad1d36b30b2eb0c89a7c466e8987e7b72b8eb652d6267237e38d1b22227f6ab8",
-    "apkSizeBytes":  57750998,
-    "releaseNotes":  "- Fixes the release notes card so it can read the GitHub update channel again.\n- Keeps batch wallet referral rewards and Apply referral code available.\n- Keeps the How to get coins guide instead of direct developer coin purchases.",
-    "publishedAt":  "2026-06-18T08:06:44Z",
+    "versionName":  "1.0.32",
+    "versionCode":  5027,
+    "apkUrl":  "https://github.com/BenjaminMisheto/belseh-updates/releases/download/v1.0.32/belseh-1.0.32-universal.apk",
+    "sha256":  "71a0c1a54c163a691f0e44872320d17c6ec3604c4807db871906ebe1fc644d87",
+    "apkSizeBytes":  58095062,
+    "releaseNotes":  "- Hardens the update system with built-in GitHub fallback URLs even if a build flag is missing.\n- Caches the last good update manifest so release notes can still open during temporary network issues.\n- Keeps the Settings update card usable instead of failing when release notes temporarily cannot refresh.",
+    "publishedAt":  "2026-06-18T08:24:59Z",
     "history":  [
+                    {
+                        "versionName":  "1.0.32",
+                        "versionCode":  5027,
+                        "releaseNotes":  "- Hardens the update system with built-in GitHub fallback URLs even if a build flag is missing.\n- Caches the last good update manifest so release notes can still open during temporary network issues.\n- Keeps the Settings update card usable instead of failing when release notes temporarily cannot refresh.",
+                        "publishedAt":  "2026-06-18T08:24:59Z"
+                    },
                     {
                         "versionName":  "1.0.31",
                         "versionCode":  5026,
