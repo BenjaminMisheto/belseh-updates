@@ -1,14 +1,20 @@
 {
   "enabled": true,
   "mandatory": false,
-  "versionName": "1.0.22",
-  "versionCode": 5017,
-  "apkUrl": "https://github.com/BenjaminMisheto/belseh-updates/releases/download/v1.0.22/belseh-1.0.22-universal.apk",
-  "sha256": "87f498009cf91673cf82d73d446cac34a1f12814838b2f744e021572fe69f28b",
-  "apkSizeBytes": 163294984,
-  "releaseNotes": "- Makes the large Settings update-card icon a real refresh button with loading feedback.\n- Adds View update history so users can read text from previous releases.\n- Keeps update notes as clear list items.",
-  "publishedAt": "2026-06-18T04:18:24.071Z",
+  "versionName": "1.0.23",
+  "versionCode": 5018,
+  "apkUrl": "https://github.com/BenjaminMisheto/belseh-updates/releases/download/v1.0.23/belseh-1.0.23-universal.apk",
+  "sha256": "a7171282bd28bc18ecc366aaa20658b56581f49a7ca43392a9ae98dccdf13653",
+  "apkSizeBytes": 163300608,
+  "releaseNotes": "- Adds Which account should I choose? on the sign-in type screen.\n- Adds a guide explaining Normal account vs Batch account and which wallet pays.\n- Keeps batch wallet sign-in usable even if cloud student-account restore is blocked by Firestore rules.",
+  "publishedAt": "2026-06-18T04:35:27.079Z",
   "history": [
+    {
+      "versionName": "1.0.23",
+      "versionCode": 5018,
+      "releaseNotes": "- Adds Which account should I choose? on the sign-in type screen.\n- Adds a guide explaining Normal account vs Batch account and which wallet pays.\n- Keeps batch wallet sign-in usable even if cloud student-account restore is blocked by Firestore rules.",
+      "publishedAt": "2026-06-18T04:35:27.079Z"
+    },
     {
       "versionName": "1.0.22",
       "versionCode": 5017,
