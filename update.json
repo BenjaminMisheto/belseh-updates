@@ -1,14 +1,20 @@
 {
     "enabled":  true,
     "mandatory":  false,
-    "versionName":  "1.0.32",
-    "versionCode":  5027,
-    "apkUrl":  "https://github.com/BenjaminMisheto/belseh-updates/releases/download/v1.0.32/belseh-1.0.32-universal.apk",
-    "sha256":  "71a0c1a54c163a691f0e44872320d17c6ec3604c4807db871906ebe1fc644d87",
+    "versionName":  "1.0.33",
+    "versionCode":  5028,
+    "apkUrl":  "https://github.com/BenjaminMisheto/belseh-updates/releases/download/v1.0.33/belseh-1.0.33-universal.apk",
+    "sha256":  "175364723c53765a75bdf7312679e3f5321c18194aca3379dc4fc681e801deae",
     "apkSizeBytes":  58095062,
-    "releaseNotes":  "- Hardens the update system with built-in GitHub fallback URLs even if a build flag is missing.\n- Caches the last good update manifest so release notes can still open during temporary network issues.\n- Keeps the Settings update card usable instead of failing when release notes temporarily cannot refresh.",
-    "publishedAt":  "2026-06-18T08:24:59Z",
+    "releaseNotes":  "- Adds a GitHub API fallback so the updater can read fresh release notes even when raw files are cached.\n- Keeps raw GitHub and GitHub Pages as fallback update channels.\n- Keeps cached release notes available during temporary network problems.",
+    "publishedAt":  "2026-06-18T08:36:46Z",
     "history":  [
+                    {
+                        "versionName":  "1.0.33",
+                        "versionCode":  5028,
+                        "releaseNotes":  "- Adds a GitHub API fallback so the updater can read fresh release notes even when raw files are cached.\n- Keeps raw GitHub and GitHub Pages as fallback update channels.\n- Keeps cached release notes available during temporary network problems.",
+                        "publishedAt":  "2026-06-18T08:36:46Z"
+                    },
                     {
                         "versionName":  "1.0.32",
                         "versionCode":  5027,
