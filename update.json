@@ -1,11 +1,139 @@
 {
   "enabled": true,
   "mandatory": false,
-  "versionName": "1.0.21",
-  "versionCode": 5016,
-  "apkUrl": "https://github.com/BenjaminMisheto/belseh-updates/releases/download/v1.0.21/belseh-1.0.21-universal.apk",
-  "sha256": "747cd9c250d4bff86c36d2dbb7a149570e7a310f4cdbbcd3f478c0d4ad989b95",
-  "apkSizeBytes": 163288936,
-  "releaseNotes": "- Combines Settings What's new and Check update into one larger update card.\n- Keeps release notes, update status, refresh, and install/check action in the same place.\n- Reduces Settings clutter without making the update card compact.",
-  "publishedAt": "2026-06-18T03:59:58.076Z"
+  "versionName": "1.0.22",
+  "versionCode": 5017,
+  "apkUrl": "https://github.com/BenjaminMisheto/belseh-updates/releases/download/v1.0.22/belseh-1.0.22-universal.apk",
+  "sha256": "87f498009cf91673cf82d73d446cac34a1f12814838b2f744e021572fe69f28b",
+  "apkSizeBytes": 163294984,
+  "releaseNotes": "- Makes the large Settings update-card icon a real refresh button with loading feedback.\n- Adds View update history so users can read text from previous releases.\n- Keeps update notes as clear list items.",
+  "publishedAt": "2026-06-18T04:18:24.071Z",
+  "history": [
+    {
+      "versionName": "1.0.22",
+      "versionCode": 5017,
+      "releaseNotes": "- Makes the large Settings update-card icon a real refresh button with loading feedback.\n- Adds View update history so users can read text from previous releases.\n- Keeps update notes as clear list items.",
+      "publishedAt": "2026-06-18T04:18:24.071Z"
+    },
+    {
+      "versionName": "1.0.21",
+      "versionCode": 5016,
+      "releaseNotes": "- Combines Settings What's new and Check update into one larger update card.\n- Keeps release notes, update status, refresh, and install/check action in the same place.\n- Reduces Settings clutter without making the update card compact.",
+      "publishedAt": "2026-06-18T04:01:49Z"
+    },
+    {
+      "versionName": "1.0.20",
+      "versionCode": 5015,
+      "releaseNotes": "- Fixes batch wallet login permission timing so Firestore waits for the Google batch account before reading or writing wallet data.\n- Stops coin gifts to unknown student Form Four indexes; the recipient must already have logged in to Belseh once.\n- Keeps What's new release notes as clear list items instead of one long story.",
+      "publishedAt": "2026-06-18T03:53:09Z"
+    },
+    {
+      "versionName": "1.0.19",
+      "versionCode": 5014,
+      "releaseNotes": "- Adds a What's new card on Settings so users can revisit the latest release notes at any time.\n- Shows update status and refreshes release notes.\n- Opens the updater from the same place.",
+      "publishedAt": "2026-06-17T10:13:06Z"
+    },
+    {
+      "versionName": "1.0.18",
+      "versionCode": 5013,
+      "releaseNotes": "- Fixes saved student account avatars.\n- Keeps real profile photos on normal and batch account lists.\n- Handles real accounts whose name matched the old placeholder fallback.",
+      "publishedAt": "2026-06-17T10:04:36Z"
+    },
+    {
+      "versionName": "1.0.17",
+      "versionCode": 5012,
+      "releaseNotes": "- Refines the launch splash screen.\n- Keeps the Belseh logo compact across phone sizes.\n- Improves consistency across Android versions.",
+      "publishedAt": "2026-06-17T09:57:03Z"
+    },
+    {
+      "versionName": "1.0.16",
+      "versionCode": 5011,
+      "releaseNotes": "- Fixes student profile loading when DIDIS profile data is slow or missing.\n- Prevents another student's saved name from appearing on a different account.\n- Uses neutral account-specific fallback text until the real profile loads.",
+      "publishedAt": "2026-06-17T09:47:40Z"
+    },
+    {
+      "versionName": "1.0.15",
+      "versionCode": 5010,
+      "releaseNotes": "- Publishes a universal APK.\n- Adds arm64-v8a, armeabi-v7a, and x86_64 support.\n- Fixes compatibility on more Android phones, including 64-bit-only devices.",
+      "publishedAt": "2026-06-17T09:36:30Z"
+    },
+    {
+      "versionName": "1.0.14",
+      "versionCode": 5009,
+      "releaseNotes": "- Improves app smoothness with consistent page transitions.\n- Preserves tab scroll position.\n- Improves scroll caching and list building on history and transaction screens.",
+      "publishedAt": "2026-06-17T08:43:45Z"
+    },
+    {
+      "versionName": "1.0.13",
+      "versionCode": 5008,
+      "releaseNotes": "- Cleans up transaction detail ledger display.\n- Shows ledger IDs as compact entries.\n- Adds a Copy full ID action instead of showing a long raw string.",
+      "publishedAt": "2026-06-17T08:13:34Z"
+    },
+    {
+      "versionName": "1.0.12",
+      "versionCode": 5007,
+      "releaseNotes": "- Adds one launch popup after an update is installed.\n- Explains what changed in the installed version.\n- Shows the installed-update popup only once for that version.",
+      "publishedAt": "2026-06-17T08:01:06Z"
+    },
+    {
+      "versionName": "1.0.11",
+      "versionCode": 5006,
+      "releaseNotes": "- Shows the launch update popup only when a newer APK is available to install.",
+      "publishedAt": "2026-06-17T07:51:19Z"
+    },
+    {
+      "versionName": "1.0.10",
+      "versionCode": 5005,
+      "releaseNotes": "- Adds a premium startup update window when a newer APK exists.\n- Shows what is new before install.\n- Shows installed and latest published version when the app is current.",
+      "publishedAt": "2026-06-17T03:44:34Z"
+    },
+    {
+      "versionName": "1.0.9",
+      "versionCode": 5004,
+      "releaseNotes": "- Fixes switch profile on the History screen.\n- Tapping the top profile control now returns to account selection immediately.",
+      "publishedAt": "2026-06-17T03:35:25Z"
+    },
+    {
+      "versionName": "1.0.8",
+      "versionCode": 5003,
+      "releaseNotes": "- Updates dark theme top cards on Home and Account.\n- Uses deeper blue so first cards match the night palette.",
+      "publishedAt": "2026-06-17T03:25:51Z"
+    },
+    {
+      "versionName": "1.0.7",
+      "versionCode": 5002,
+      "releaseNotes": "- Adds one-tap APK sharing from Settings.\n- Supports local phone-to-phone installs.\n- Refreshes Home, Account, Settings, and Transaction cards with a softer blue premium style.",
+      "publishedAt": "2026-06-17T03:19:22Z"
+    },
+    {
+      "versionName": "1.0.6",
+      "versionCode": 5001,
+      "releaseNotes": "- Makes update downloads persistent.\n- Shows Android notification progress.\n- Allows cancellation from the app or notification panel.",
+      "publishedAt": "2026-06-16T14:44:02Z"
+    },
+    {
+      "versionName": "1.0.4",
+      "versionCode": 5000,
+      "releaseNotes": "- Sets coin price to TSH 500 by default.\n- Changes referrals so both accounts receive 1 coin.",
+      "publishedAt": "2026-06-16T11:23:13Z"
+    },
+    {
+      "versionName": "1.0.3",
+      "versionCode": 4999,
+      "releaseNotes": "- Refreshes the update page.\n- Adds a premium status hero and release card.\n- Improves loading and error states.",
+      "publishedAt": "2026-06-16T07:44:57Z"
+    },
+    {
+      "versionName": "1.0.2",
+      "versionCode": 4998,
+      "releaseNotes": "- Makes Check update and Quick note large premium cards in Settings.",
+      "publishedAt": "2026-06-16T07:36:51Z"
+    },
+    {
+      "versionName": "1.0.1",
+      "versionCode": 4997,
+      "releaseNotes": "- Adds the GitHub update channel.\n- Adds the Settings update entry.",
+      "publishedAt": "2026-06-16T07:19:54Z"
+    }
+  ]
 }
