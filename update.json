@@ -1,11 +1,11 @@
 {
   "enabled": true,
   "mandatory": false,
-  "versionName": "1.0.20",
-  "versionCode": 5015,
-  "apkUrl": "https://github.com/BenjaminMisheto/belseh-updates/releases/download/v1.0.20/belseh-1.0.20-universal.apk",
-  "sha256": "a9007500b7cad446e09b6570c62c169843ec880190745ea7f1053d713a48e93b",
-  "apkSizeBytes": 163288868,
-  "releaseNotes": "- Fixes batch wallet login permission timing so Firestore waits for the Google batch account before reading or writing wallet data.\n- Stops coin gifts to unknown student Form Four indexes; the recipient must already have logged in to Belseh once.\n- Keeps What's new release notes as clear list items instead of one long story.",
-  "publishedAt": "2026-06-18T03:48:14.161Z"
+  "versionName": "1.0.21",
+  "versionCode": 5016,
+  "apkUrl": "https://github.com/BenjaminMisheto/belseh-updates/releases/download/v1.0.21/belseh-1.0.21-universal.apk",
+  "sha256": "747cd9c250d4bff86c36d2dbb7a149570e7a310f4cdbbcd3f478c0d4ad989b95",
+  "apkSizeBytes": 163288936,
+  "releaseNotes": "- Combines Settings What's new and Check update into one larger update card.\n- Keeps release notes, update status, refresh, and install/check action in the same place.\n- Reduces Settings clutter without making the update card compact.",
+  "publishedAt": "2026-06-18T03:59:58.076Z"
 }
